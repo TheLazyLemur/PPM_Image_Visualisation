@@ -9,9 +9,9 @@ No Dependencies were used to render these images, they are written pixel by pixe
 
 ## Screenshots
 
-<img src="Screenshots/Fill.png?raw=true" width="100" height="100">
+<img alt="Fill" src="Screenshots/Fill.png?raw=true" width="100" height="100">
 
-<img src="Screenshots/CheckerPattern.png?raw=true" width="100" height="100">
+<img alt="Checker Pattern" src="Screenshots/CheckerPattern.png?raw=true" width="100" height="100">
 
-<img src="Screenshots/SolidCircle.png?raw=true" width="100" height="100">
+<img alt="Solid Circle" src="Screenshots/SolidCircle.png?raw=true" width="100" height="100">
 
