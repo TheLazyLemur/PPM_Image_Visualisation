@@ -1,4 +1,6 @@
-﻿using System.IO;
+﻿using System;
+using System.Diagnostics;
+using System.IO;
 
 const int width = 700;
 const int height = 700;
@@ -71,9 +73,10 @@ void SetPixelColor(byte[] pixelData, int currentPixel, byte r, byte g, byte b)
 
 void WritePpm(byte[] pixelData, string name)
 {
-    var destination = new StreamWriter($"/home/dan/{name}");
+    var destination = new StreamWriter($"./{name}");
     destination.Write("P6\n{0} {1}\n{2}\n", width, height, 255);
     destination.Flush();
     destination.BaseStream.Write(pixelData, 0, pixelData.Length);
     destination.Close();
+    Console.WriteLine($"Saved {name}");
 }
