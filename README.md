@@ -9,6 +9,6 @@ No Dependencies were used to render these images, they are written pixel by pixe
 
 ## Screenshots
 
-![Fill.ppm](Screenshots/Fill.png?raw=true "Fill.ppm")
+ <img src="Screenshots/Fill.png?raw=true" width="100" height="100">
 ![CheckerPattern.ppm](Screenshots/CheckerPattern.png?raw=true "CheckerPattern.ppm")
 ![SolidCircle.ppm](Screenshots/SolidCircle.png?raw=true "SolidCircle.ppm")
